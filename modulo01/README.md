@@ -89,6 +89,6 @@ Tópico: **Ferramenta necessária**<br>
 
 ### Aparência do projeto inicial
 
-<img src="/modulo01/img/Screenshot_3.PNG" alt="Visão Geral"/>
+<img src="https://github.com/andrebronca/unity-mentorama-iniciante/blob/andre_pc_pti/modulo01/img/Screenshot_3.png" alt="Visão Geral"/>
 
-<img src="https://github.com/andrebronca/unity-mentorama-iniciante/blob/andre_pc_pti/modulo01/img/Screenshot_3.png" alt="Visão Game"/>
+<img src="https://github.com/andrebronca/unity-mentorama-iniciante/blob/andre_pc_pti/modulo01/img/Screenshot_4.png" alt="Visão Game"/>
