@@ -91,4 +91,4 @@ Tópico: **Ferramenta necessária**<br>
 
 <img src="/modulo01/img/Screenshot_3.PNG" alt="Visão Geral"/>
 
-<img src="/img/Screenshot_4.PNG" alt="Visão Game"/>
+<img src="https://github.com/andrebronca/unity-mentorama-iniciante/blob/andre_pc_pti/modulo01/img/Screenshot_3.png" alt="Visão Game"/>
