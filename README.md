@@ -9,5 +9,4 @@ Primeira atividade do módulo:<br />
 Ambientalizar-se na ferramenta Unity: hierarquia, cena, layout.<br/>
 [Arquivos da atividade](https://github.com/andrebronca/unity-mentorama-iniciante/blob/andre_pc_pti/modulo01/README.md)
 
-<img src="" alt="módulo 01"/>
 
