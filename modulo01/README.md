@@ -89,6 +89,6 @@ Tópico: **Ferramenta necessária**<br>
 
 ### Aparência do projeto inicial
 
-<img src="/img/Screenshop_3.PNG" alt="Visão Geral"/>
+<img src="/img/Screenshot_3.PNG" alt="Visão Geral"/>
 
-<img src="/img/Screenshop_4.PNG" alt="Visão Game"/>
+<img src="/img/Screenshot_4.PNG" alt="Visão Game"/>
