@@ -1,0 +1,14 @@
+C:\Users\andre.bronca\academy_c_sharp\w3s\p001_hello\HelloWorld\HelloWorld\bin\Debug\net8.0\HelloWorld.exe
+C:\Users\andre.bronca\academy_c_sharp\w3s\p001_hello\HelloWorld\HelloWorld\bin\Debug\net8.0\HelloWorld.deps.json
+C:\Users\andre.bronca\academy_c_sharp\w3s\p001_hello\HelloWorld\HelloWorld\bin\Debug\net8.0\HelloWorld.runtimeconfig.json
+C:\Users\andre.bronca\academy_c_sharp\w3s\p001_hello\HelloWorld\HelloWorld\bin\Debug\net8.0\HelloWorld.dll
+C:\Users\andre.bronca\academy_c_sharp\w3s\p001_hello\HelloWorld\HelloWorld\bin\Debug\net8.0\HelloWorld.pdb
+C:\Users\andre.bronca\academy_c_sharp\w3s\p001_hello\HelloWorld\HelloWorld\obj\Debug\net8.0\HelloWorld.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\andre.bronca\academy_c_sharp\w3s\p001_hello\HelloWorld\HelloWorld\obj\Debug\net8.0\HelloWorld.AssemblyInfoInputs.cache
+C:\Users\andre.bronca\academy_c_sharp\w3s\p001_hello\HelloWorld\HelloWorld\obj\Debug\net8.0\HelloWorld.AssemblyInfo.cs
+C:\Users\andre.bronca\academy_c_sharp\w3s\p001_hello\HelloWorld\HelloWorld\obj\Debug\net8.0\HelloWorld.csproj.CoreCompileInputs.cache
+C:\Users\andre.bronca\academy_c_sharp\w3s\p001_hello\HelloWorld\HelloWorld\obj\Debug\net8.0\HelloWorld.dll
+C:\Users\andre.bronca\academy_c_sharp\w3s\p001_hello\HelloWorld\HelloWorld\obj\Debug\net8.0\refint\HelloWorld.dll
+C:\Users\andre.bronca\academy_c_sharp\w3s\p001_hello\HelloWorld\HelloWorld\obj\Debug\net8.0\HelloWorld.pdb
+C:\Users\andre.bronca\academy_c_sharp\w3s\p001_hello\HelloWorld\HelloWorld\obj\Debug\net8.0\HelloWorld.genruntimeconfig.cache
+C:\Users\andre.bronca\academy_c_sharp\w3s\p001_hello\HelloWorld\HelloWorld\obj\Debug\net8.0\ref\HelloWorld.dll

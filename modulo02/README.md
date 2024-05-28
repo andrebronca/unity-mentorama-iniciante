@@ -82,3 +82,23 @@ Instrutor: **Bruno Freitas**<br>
         - skybox (é o céu do ambiente 3D)
 
 ### Iluminação
+- Directional Light (iluminação principal na cena)
+    - aplica iluminação a todos os objetos da cena, no mesmo ângulo, independente de onde está posicionada a directional light
+    - **Light**
+        - Mode
+            - Realtime: a luz muda conforme se movimenta na tela do jogo, fica mais pesado e realista o processamento/resultado.
+            - Baked: fixa uma iluminação (mapa de iluminação) e a movimentação não irá alterar o ângulo da luz depois.
+        - Indirect Multiplier: como a luz irá refletir e reiluminar outros objetos próximos
+        - Culling Masc: permite selecionar algo que não irá receber o efeito do ângulo de iluminação. Ex. Dentro de uma casa e fora de uma casa. Directional Light funciona como o Sol.
+        - Shadow Type: como o efeito de sombra irá se comportar no mundo do jogo
+
+- Point Light (adicionar no Hierarchy)
+    - Range: altera a área de alcance da iluminação.
+- Spot Light
+    - Reproduz uma luz mais focada.
+        - objeto configurado (checked static como) (objeto a ser iluminado):
+            - Contribute GI
+            - Batching Static
+            - Reflection Probe Static
+    - aproximar do objeto e aumentar o valor da intensity para perceber.
+    

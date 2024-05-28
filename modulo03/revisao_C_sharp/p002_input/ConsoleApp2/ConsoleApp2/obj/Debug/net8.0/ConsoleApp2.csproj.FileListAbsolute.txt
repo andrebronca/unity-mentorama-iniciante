@@ -1,0 +1,14 @@
+C:\Users\andre.bronca\academy_c_sharp\w3s\p002_input\ConsoleApp2\ConsoleApp2\bin\Debug\net8.0\ConsoleApp2.exe
+C:\Users\andre.bronca\academy_c_sharp\w3s\p002_input\ConsoleApp2\ConsoleApp2\bin\Debug\net8.0\ConsoleApp2.deps.json
+C:\Users\andre.bronca\academy_c_sharp\w3s\p002_input\ConsoleApp2\ConsoleApp2\bin\Debug\net8.0\ConsoleApp2.runtimeconfig.json
+C:\Users\andre.bronca\academy_c_sharp\w3s\p002_input\ConsoleApp2\ConsoleApp2\bin\Debug\net8.0\ConsoleApp2.dll
+C:\Users\andre.bronca\academy_c_sharp\w3s\p002_input\ConsoleApp2\ConsoleApp2\bin\Debug\net8.0\ConsoleApp2.pdb
+C:\Users\andre.bronca\academy_c_sharp\w3s\p002_input\ConsoleApp2\ConsoleApp2\obj\Debug\net8.0\ConsoleApp2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\andre.bronca\academy_c_sharp\w3s\p002_input\ConsoleApp2\ConsoleApp2\obj\Debug\net8.0\ConsoleApp2.AssemblyInfoInputs.cache
+C:\Users\andre.bronca\academy_c_sharp\w3s\p002_input\ConsoleApp2\ConsoleApp2\obj\Debug\net8.0\ConsoleApp2.AssemblyInfo.cs
+C:\Users\andre.bronca\academy_c_sharp\w3s\p002_input\ConsoleApp2\ConsoleApp2\obj\Debug\net8.0\ConsoleApp2.csproj.CoreCompileInputs.cache
+C:\Users\andre.bronca\academy_c_sharp\w3s\p002_input\ConsoleApp2\ConsoleApp2\obj\Debug\net8.0\ConsoleApp2.dll
+C:\Users\andre.bronca\academy_c_sharp\w3s\p002_input\ConsoleApp2\ConsoleApp2\obj\Debug\net8.0\refint\ConsoleApp2.dll
+C:\Users\andre.bronca\academy_c_sharp\w3s\p002_input\ConsoleApp2\ConsoleApp2\obj\Debug\net8.0\ConsoleApp2.pdb
+C:\Users\andre.bronca\academy_c_sharp\w3s\p002_input\ConsoleApp2\ConsoleApp2\obj\Debug\net8.0\ConsoleApp2.genruntimeconfig.cache
+C:\Users\andre.bronca\academy_c_sharp\w3s\p002_input\ConsoleApp2\ConsoleApp2\obj\Debug\net8.0\ref\ConsoleApp2.dll
