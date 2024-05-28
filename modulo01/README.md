@@ -178,3 +178,9 @@ Todos os elementos na cena, são considerados GameObject.<br>
         - Local: rotaciona o elemento a partir do seu eixo
         - Global: rotaciona o elemento a partir do eixo da "cena", é outra referência.
         - O ambiente possui uma referência de coordenada e um novo elmento terá outra referência que pode não estar alinhada com o ambiente.
+
+
+## Mudando a posição de alguns elemntos
+- alterando posição
+- alterando rotação
+<img src="https://github.com/andrebronca/unity-mentorama-iniciante/blob/andre_pc_pti/modulo01/img/Screenshot_8.png" alt="Alterando a posição de alguns GameObjects"/>
