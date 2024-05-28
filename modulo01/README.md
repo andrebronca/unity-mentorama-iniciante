@@ -27,13 +27,20 @@ Principais <br>
     - Responsáveis pela criação da regra do jogo
 
 Indústria de jogos nacional:
-- [Wildlife] (https://wildlifestudios.com/donation-rio-grande-do-sul/)
-    * Está entre as 10 maiores empresas, de desenvolvimento de games, do mundo
+- [Wildlife](https://wildlifestudios.com/donation-rio-grande-do-sul/)
+    - Está entre as 10 maiores empresas, de desenvolvimento de games, do mundo
     - Jogos que conseguem juntos uma receita de +de 6 milhões de dólares/mês
         - Zooba
         - Sniper 3D
         - Tennis Clash
-- [Fanatee Games] (https://fanatee.com/)
-    * 2ª Maior empresa de jogos de palavra do mundo.
+- [Fanatee Games](https://fanatee.com/)
+    - 2ª Maior empresa de jogos de palavra do mundo.
     - Letroca
     - CodyCross
+- [Aquiris](https://www.aquiris.com.br/)
+    - Empresa de Porto Alegre - RS
+    - Horizon Chase
+- [Octagon](http://octagongame.com/)
+- [Black River](https://www.facebook.com/blackrivergames/)
+    - Está em Manaus, pertence à Samsung
+- [Consultar a indústria de jogos](https://www.industriadejogos.com.br/)
