@@ -1,0 +1,1 @@
+# Gerenciamento de cenas e inputs
