@@ -11,7 +11,7 @@ Instrutor: **Bruno Freitas**<br>
         * Drag: atrito. Se houver objetos com valores diferentes, o maior valor representará maior atrito com o ar, no caso de queda, dependendo o caso, será mais lento.<br>
         * Is Kinematic: se ativo, não terá efeito da física.<br>
     - Rigidbody será específico do Collider.<br>
-        * Collider 2D para Rigidbody 2D.<br>
+        -- Collider 2D para Rigidbody 2D.<br>
         * Collider 3D para Rigidbody 3D.<br>
 
 ## Aula 2
