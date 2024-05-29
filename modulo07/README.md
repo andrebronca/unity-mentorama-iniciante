@@ -24,3 +24,7 @@ Instrutor: **Bruno Freitas**<br>
     - **MovimentaCubo.cs**: contém exemplo de movimentação com teclas
 
 ## Aula 3
+**RayCast**: Criar um raio que dura um frame, tem posição de origem e destino e caso colida com algo, retorna o valor do que foi colidido. Clique em local específico da tela, para detectar a posição pode ser feito com RayCast.
+    - **RayCast.cs**: tem um exemplo do uso, basta vincular o scritp a um objeto que esteja alinhado com outro para ver o resultado no console.
+    - RayMask: faz com que os raios só acertem algo em uma layer específica.
+    - Deve ser executado na FixedUpdate()
