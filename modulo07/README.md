@@ -5,14 +5,14 @@ Instrutor: **Bruno Freitas**<br>
 
 ## Aula 1
 **Engine de Física**<br>
-    - 2D e 3D possuem comportamentos distintos, uma não consegue interferir na outra.
-    - Selecionar o objeto e adicionar o componente: Rigidbody
-    - **Rigidbody**
-        - Drag: atrito. Se houver objetos com valores diferentes, o maior valor representará maior atrito com o ar, no caso de queda, dependendo o caso, será mais lento.
-        - Is Kinematic: se ativo, não terá efeito da física
-    - Rigidbody será específico do Collider.
-        - Collider 2D para Rigidbody 2D
-        - Collider 3D para Rigidbody 3D
+    - 2D e 3D possuem comportamentos distintos, uma não consegue interferir na outra.<br>
+    - Selecionar o objeto e adicionar o componente: Rigidbody<br>
+    - **Rigidbody**<br>
+        - Drag: atrito. Se houver objetos com valores diferentes, o maior valor representará maior atrito com o ar, no caso de queda, dependendo o caso, será mais lento.<br>
+        - Is Kinematic: se ativo, não terá efeito da física.<br>
+    - Rigidbody será específico do Collider.<br>
+        - Collider 2D para Rigidbody 2D.<br>
+        - Collider 3D para Rigidbody 3D.<br>
 
 ## Aula 2
 **Collider**
