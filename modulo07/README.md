@@ -4,7 +4,7 @@ Revisão: **29/05/2024**<br>
 Instrutor: **Bruno Freitas**<br>
 
 ## Aula 1
-**Engine de Física**<br>
+-**Engine de Física**<br>
     - 2D e 3D possuem comportamentos distintos, uma não consegue interferir na outra.<br>
     - Selecionar o objeto e adicionar o componente: Rigidbody<br>
     - **Rigidbody**<br>
@@ -15,7 +15,7 @@ Instrutor: **Bruno Freitas**<br>
         -- Collider 3D para Rigidbody 3D.<br>
 
 ## Aula 2
-**Collider**
+-**Collider**
     - Criar um Physic Material: permite que o objeto "quica" quando colide com outro. Valor vai de 0.0 a 1.0
         - **Bounciness**
     - Em Scene02 há alguns exemplo de aplicação de física.
@@ -24,7 +24,7 @@ Instrutor: **Bruno Freitas**<br>
     - **MovimentaCubo.cs**: contém exemplo de movimentação com teclas
 
 ## Aula 3
-**RayCast**: Criar um raio que dura um frame, tem posição de origem e destino e caso colida com algo, retorna o valor do que foi colidido. Clique em local específico da tela, para detectar a posição pode ser feito com RayCast.
+-**RayCast**: Criar um raio que dura um frame, tem posição de origem e destino e caso colida com algo, retorna o valor do que foi colidido. Clique em local específico da tela, para detectar a posição pode ser feito com RayCast.
     - **RayCast.cs**: tem um exemplo do uso, basta vincular o scritp a um objeto que esteja alinhado com outro para ver o resultado no console.
     - RayMask: faz com que os raios só acertem algo em uma layer específica.
     - Deve ser executado na FixedUpdate()
