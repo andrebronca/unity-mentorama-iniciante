@@ -15,6 +15,12 @@ Instrutor: **Bruno Freitas**<br>
     - vincular o script em um button que está na cena 1
         - a função carrega a cena 2
     - na cena 2 há um cubo vermelho, só para perceber a mudança
+    - explicações adicionais do código C#. Script05SceneManager.cs
     --**Obs.**: tem que carregar a cena no Build Settings
+- Nessa fiz o exemplo do botão que exibe a cena 2, e adicionei nessa cena 2 um botão para voltar à cena 1.
 
 ## Aula 3
+- **Movimentação de objeto**
+    - Update(): tem que ser aplicada o input de pressionamento para verificar a cada frame se ocorreu acionamento. Há diversos eventos para o tipo de acionamento de tecla.
+    - Exemplo: MovimentaCubo.cs
+        - mais explicações
