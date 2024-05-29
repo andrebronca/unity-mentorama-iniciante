@@ -32,6 +32,18 @@ public class Script05SceneManager : MonoBehaviour
         SceneManager.LoadScene(sceneIndex);
     }
 
+    //Se tiver várias cenas carregas e quer que uma seja descarregada a mais "distante".
+    public void UnLoadScene(string sceneName)
+    {
+        SceneManager.UnloadSceneAsync(sceneName);
+    }
+
+    //pode ser utilizada para recarregar a cena
+    void RestartScene()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
+
     
     // Start is called before the first frame update
     void Start()
