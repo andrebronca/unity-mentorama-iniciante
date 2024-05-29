@@ -15,8 +15,8 @@ Instrutor: **Bruno Freitas**<br>
         - Collider 3D para Rigidbody 3D
 
 ## Aula 2
-**Collider**
-    - Criar um Physic Material: permite que o objeto "quica" quando colide com outro. Valor vai de 0.0 a 1.0
+**Collider**<br>
+    - Criar um Physic Material: permite que o objeto "quica" quando colide com outro. Valor vai de 0.0 a 1.0.
         - **Bounciness**
     - Em Scene02 há alguns exemplo de aplicação de física.
     - Collider > **Is Trigger** > para disparar algo via código C# e não efetivamente colidir.
