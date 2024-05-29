@@ -4,7 +4,7 @@ Revisão: **29/05/2024**<br>
 Instrutor: **Bruno Freitas**<br>
 
 ## Aula 1
-**Engine de Física**
+**Engine de Física**<br>
     - 2D e 3D possuem comportamentos distintos, uma não consegue interferir na outra.
     - Selecionar o objeto e adicionar o componente: Rigidbody
     - **Rigidbody**
