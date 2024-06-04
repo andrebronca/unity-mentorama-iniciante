@@ -58,5 +58,50 @@ Pipeline: ideia de linha de produção.<br>
         7.1.1 Renomear: PrefabRK
     7.2 Arrastar esse PrefabRK para: Assets > Prefab
 
-    7:49
+8. Propriedades do modelo importado
+    8.1 Model está no formato .fbx.
+    8.2 Scale Factor: fator de escala, unidade do modelo
+    8.3 BlendShapes: são malhas extras com 'formatos' diferentes. Ex. Rosto sorrindo, sério, neutro.
+    8.4 Mesh Compression: se for High, resulta em uma qualidade menor da malha.
+    8.5 Read/Write Enable: se irá permitir alteração da malha via código.
+    8.6 Generate Colliders: Geração de colisores.
+    8.7 Weld Vertices: Verifica vértices que não são necessárias
+    8.8 Index Format: Reserva memória caso o objeto seja muito complexo.
+    8.9 Normals: Ângulos das faces, utilizado para a iluminação, dar a sensação de objeto 3D.
+9. Com o modelo em Hierarchy (scene), para visualizar o colisor, localise o prefab do modelo.
+    9.1 Irá aparecer: Mesh Filter, Mesh Renderer, Mesh Collider
+
+## Aula 4
+
+Revisão: 03/06/2024<br>
+**Mesh Renderer, Skinned, configurações de importação: Rig**<br>
+1. Em modelo, localizar a aba [Rig]: Rig é o que permite animar um objeto (personagem).
+    1.1 No exemplo de um modelo de barco, como não tem animação, em Rig, o Animation 
+    Type pode ficar em: None
+        1.1.1 **Mesh Renderer**: 
+            1.1.1.1 Cast Shadows: se vai produzir sombra.
+            1.1.1.2 Contribute Global Illumin: se irá refletir (cor) em outros objetos.
+        1.1.2 **Additional Settings**:
+            1.1.2.1 Dynamic Occlusion: a Unity some com o objeto quando ele não é mais necessário no cenário.
+
+    1.2 No exemplo do Robot Kyle: em Rig, o Animation Type será: Humanoid
+        1.2.1 Com isso o Unity irá traduzir em um avatar, pode aproveitar as configurações de Rig em outros personagens humanoides.
+        1.2.2 Como é o primeiro, deixar: Avatar Definition em Create From This Model.
+            1.2.2.1: Surgiu um erro, o modelo não permitiu a criação do avatar: Invalid Avatar Rig Configuration, Missing or invalid transform: Required human none 'Hips' not found.
+            1.2.2.2: Clicar no botão configure para carregar o Avatar.
+        1.2.3 **obs.**: caso clique e não apareça as configurações da importação, mudar para navegação via teclado. Teve vez que o clique não exibia a configuração.
+        1.2.4 Rig é como se fosse uma estrutura de ossos. Caso o botão [configure] não leve ao avatar, verificar se há o arquivo de avatar.
+2. Objeto animado possui: **Skinned Mesh Renderer**
+    2.1 Localizar o objeto (prefab) com o componente supracitado.
+    2.2 Bounds: define os limites desse objeto. Conforme o objeto se movimenta, o bound muda a definição de região. Ex. Levantar braço aumenta o bound, encolher a animação, diminui o bound. O bound é monitorado pelo culling, quando sai de cena, não precisa mais ser renderizado.
+        2.2.1 Update When Offscreen: se true, renderiza o objeto, mesmo quando o bound estiver fora da área da câmera.
+3. BlendShapes
+    3.1 Quando o projeto possui shapes, no Inspector aparece uma lista dos BlandShapes. Essas opções estarão no componente **Skinned Mesh Renderer**.
+
+## Aula 5
+
+Revisão: 03/06/2024<br>
+**Mesh Renderer, Skinned, configurações de importação: Rig**<br>
+1.
+        
 
