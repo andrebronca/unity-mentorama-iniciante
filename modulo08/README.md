@@ -100,8 +100,61 @@ Revisão: 03/06/2024<br>
 
 ## Aula 5
 
-Revisão: 03/06/2024<br>
-**Mesh Renderer, Skinned, configurações de importação: Rig**<br>
-1.
-        
+Revisão: 04/06/2024<br>
+**Texturas**<br>
+1. Texturas são colocadas na superfície da malha 3D.
+    1.1 Tipos de texturas:
+        1.1.1 Mapa de Cor (Diffuse, Albedo)
+        1.1.2 Mapa de Transparência
+        1.1.3 Mapa de Normais (direção de uma face 3D)
+        1.1.4 Mapa de Especular (brilho)
+        1.1.5 Mapa de Oclusão ()
+        1.1.6 Mapa de Ambiente (MatCap: como deve reagir a luz)
+        1.1.7 Mapa de Emissão (definir áreas que devem emitir luz), etc
+    1.2 Mapa de UV (coordenadas) usado para mapear as faces de um modelo 3D em uma imagem 2D.
+    1.3 Formatos de imagens suportados: PNG, PSD, TIFF, TGA
+    1.4 Selecionando uma textura. Inspector: 
+        1.4.1 Texture Type: Estará como Default. Há a opção, Single Channel que pode ser especificado o canal de transparência: Alpha, usado em partículas.
+        1.4.2 Apha Source: Se a imagem tiver o canal alpa, irá aparecer ao lado da informação do RGB. Se não tiver, mudar para: None
+2. Mip Maps: Quando o objeto se distancia da câmera, será utilizado uma textura com uma qualidade inferior.
+3. Comprimindo texturas.
+    3.1 Max Size: 512
+    3.2 Use Crunch Compression: true
+    3.3 Compressor Quality: 100
+    3.4 Tamanho da imagem foi de 0.6 MB -> 71.7 KB
+<br>
+**Materiais**<br>
+1. Texturas são aplicadas na malha por meio de materiais.
+2. Materiais se utilizam de programas gráficos: Shaders, que definem como a superfície da malha será renderizada.
+    2.1 Shaders são responsáveis pela iluminação, cor, etc.
+3. Textura é aplicada em um material, e este é aplicado em uma malha.
+    3.1 Textura -> Material -> Mesh (objeto)
+    3.2 Uma malha 3d pode ter mais de um Material
+    3.3 Um Material pode ser utilizado em diversas malhas
+    3.4 Um Shader pode ser utilizado por diversos Materiais
+
+## Aula 6
+
+Revisão: 04/06/2024<br>
+**Sprites**<br>
+1. Não são só imagens. Formato: PNG. Ex. imagens diferentes de um mesmo objeto, como se fosse uma animação. "Personagem andando, tocha".
+2. Se forem várias imagens, devem ser selecionadas e alterado o Texture Type para Sprite.
+    2.1 Se for uma única imagem, mudar o Texture Type: Sprite
+        2.1.1 Remover o fundo de uma imagem para criar o canal alpha. Usando o Gimp
+        2.1.2 Imagem selecionada no  Gimp, bdm -> Adicionar canal Alpha. Remover a cor.
+        2.1.3 Salvar como: XCF
+        2.1.4 Exportar como: PNG
+3. Sprite Mode: Multiple
+    3.1. Tem que ter o package do Sprite Editor importado. **2D Sprite**
+    3.2. clicar no botão [Sprite Editor]
+        3.2.1 Slice > Grid By Cell Count
+4. Mesh Type: Tight
+    4.1 É desenhada uma malha de contorno, como se fosse de colisão, que envolve o mínimo possível da imagem.
+5. Sprite Atlas: 
+    5.1 Sem Sprite Atlas: Quando há várias imagens (sprites) para dar a ideia de movimento, cada chamada da GPU para uma imagem é feito um draw call.
+    5.2 Com Sprite Atlas as imagens são agrupadas, melhorando o desempenho da GPU.
+    5.3 bdm > Create > 2D > Sprite Atlas
+        5.3.1 Arrastar as imagens para: Objects for Packing. Isso irá gerar o Packt preview.
+        5.3.2 Irá gerar uma imagem com todas as outras, ou seja: 1 draw call.
+        5.3.3 É possível aplicar compressão para reduzir o tamanho.
 
