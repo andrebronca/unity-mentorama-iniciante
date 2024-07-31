@@ -16,7 +16,7 @@ public class Colidir : MonoBehaviour
     //essa função só funciona com o Is Trigger desmarcado
     private void OnCollisionEnter(Collision collision)
     {
-        Debug.Log("COLISÃO: "+ collision.other.name);
+        Debug.Log("COLISÃO: "+ collision.rigidbody.name);
     }
 
 }
