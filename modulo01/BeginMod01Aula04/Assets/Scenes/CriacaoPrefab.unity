@@ -247,6 +247,7 @@ GameObject:
   - component: {fileID: 960566447}
   - component: {fileID: 960566446}
   - component: {fileID: 960566448}
+  - component: {fileID: 960566449}
   m_Layer: 0
   m_Name: GOE
   m_TagString: Untagged
@@ -297,6 +298,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   listaFrutas: []
+  tamanhoArray: 10
+--- !u!114 &960566449
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 960566445}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5b894d8227db5443ac4d4e6164dd233, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1253885051
 GameObject:
   m_ObjectHideFlags: 0
@@ -517,7 +531,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fatorar1: 6
-  fatorar2: 40
+  fatorar2: 30
   ehPrimo: 71
   ehPrimo2: 75
   acharPrimosAte: 10
