@@ -23,7 +23,25 @@ public class Enums : MonoBehaviour
 		{
 			Debug.Log($"{gameState} = {(int)gameState}");
 		}
+
+		LogStatus(gameState);
     }
+
+	private void LogStatus(GameState gs)
+	{
+		switch (gs)
+		{
+			case GameState.Starting:
+				Debug.Log($"Iniciando o jogo");
+				break;
+			case GameState.GameOver:
+				Debug.Log($"Finalizando o Jogo");
+				break;
+			case GameState.InGame:
+				Debug.Log($"Executando o Jogo");
+				break;
+		}
+	}
 
     
 }
