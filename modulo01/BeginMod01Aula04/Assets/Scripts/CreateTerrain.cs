@@ -9,6 +9,8 @@ public class CreateTerrain : MonoBehaviour
     [SerializeField] int terrainSize;
     [SerializeField] float terrainHeight;   //-1.49f
 
+	List<GameObject> prefabList = new List<GameObject>();
+
     // Start is called before the first frame update
     void Start()
     {
@@ -26,9 +28,9 @@ public class CreateTerrain : MonoBehaviour
 				int randomHeight = Random.Range(1, 5);
 				for (int height = 1; height <= randomHeight; height++)
 				{
-					Instantiate(cubePrefab,	
+					prefabList.Add(Instantiate(cubePrefab,	
 						new Vector3(coluna, height, linha),
-						Quaternion.identity);
+						Quaternion.identity));
 					count++;
 				}
 			}
@@ -52,10 +54,23 @@ public class CreateTerrain : MonoBehaviour
 		}
 	}
 
+	void Update()
+	{
+		if (Input.GetKey(KeyCode.Space))
+		{
+            for (int i = 0; i < prefabList.Count; i++)
+            {
+				Destroy(prefabList[i]);
+				prefabList.Remove(prefabList[i]);
+            }
+        }
+	}
 
-    /* Criar um GameObject empty (GOE).
+
+
+	/* Criar um GameObject empty (GOE).
      * Vincular esse script no GOE.
      * No atributo desse script, vincular um prefab.
      */
-    
+
 }
