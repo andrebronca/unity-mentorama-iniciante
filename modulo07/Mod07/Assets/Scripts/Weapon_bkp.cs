@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class WeaponBkp
+public class Weapon_bkp
 {
 	private int _damage;
 	private char rank;
@@ -60,7 +60,7 @@ public class WeaponBkp
 	//private readonly int _myReadOnly;   //só pode ser alterado no construtor
 
 	//deixar como public, senão não consegue instanciar
-	public WeaponBkp()
+	public Weapon_bkp()
 	{
 		Debug.Log("construtor vazio");
 		_damage = 10;
@@ -71,19 +71,19 @@ public class WeaponBkp
 	//quando o objeto se tornar null, irá executar o destructor
 	//não precisa ser público, não deve ter parâmetros,
 	//tem o ~ antes do nome
-	~WeaponBkp()
+	~Weapon_bkp()
 	{
 		Debug.Log("Executando o destructor");
 	}
 
-	public WeaponBkp(int damage, char rank)
+	public Weapon_bkp(int damage, char rank)
 	{
 		estrago = damage;
 		this.rank = rank;
 	}
 
 	//constructor com arrow function
-	public WeaponBkp(int damage) => estrago = damage;
+	public Weapon_bkp(int damage) => estrago = damage;
 
 	int attack()
 	{

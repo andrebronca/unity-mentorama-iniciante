@@ -1,29 +1,51 @@
+
 using UnityEngine;
 
 public class Weapon
 {
-	public int Damage { get; set; }
-	public int Rank { get; set; }
+	public string Name { get; private set; }
+	public int Damage { get; private set; }
+	public char Rank { get; private set; }
 
-
-	//deixar como public, senão não consegue instanciar
-	public Weapon()
+	public Weapon(string name, int damage)
 	{
-		Debug.Log("construtor vazio");
-		Damage = 10;
-		Rank = 'A';
-	}
-
-	public Weapon(int damage, char rank)
-	{
+		Name = name;
 		Damage = damage;
-		Rank = rank;
+		Rank = GetRank(damage);
 	}
 
-
-	int attack()
+	public static char GetRank(int damage)
 	{
-		Debug.Log($"Atacando com {Damage} de dano.");
-		return Damage;
+		if (damage > 10)
+		{
+			return 'S';
+		}
+		else if (damage >= 7)
+		{
+			return 'A';
+		}
+		else if (damage >= 4)
+		{
+			return 'B';
+		}
+		return 'C';
+	}
+
+	//afiar lâmina
+	public void Sharpen()
+	{
+		Damage++;
+		Debug.Log($"{Name} foi afiada! Dano aumentou para {Damage}");
+
+		VerifyRank(Weapon.GetRank(Damage));
+	}
+
+	private void VerifyRank(char rank)
+	{
+		if (rank != Rank)
+		{
+			Rank = rank;
+			Debug.Log($"Rank da {Name} aumentou para {Rank}");
+		}
 	}
 }
