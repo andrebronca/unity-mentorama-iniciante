@@ -22,7 +22,7 @@ public class Character
 		if (IsAlive && WeaponNotNull)  //estar vivo e com arma para atacar
 		{
 			Debug.Log($"{Name} atacou {other.Name} com {Weapon.Name}");
-			other.DealDamage(Weapon.Damage, other);
+			other.DealDamage(Weapon.Swing(), other);
 		}
 		if (!IsAlive)
 		{
