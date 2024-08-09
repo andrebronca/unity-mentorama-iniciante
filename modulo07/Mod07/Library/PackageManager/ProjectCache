@@ -5,27 +5,27 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638584602865274912
-    m_Hash: 3914705258
+      ticks: 638585589626689837
+    m_Hash: 1710567217
   m_LockFileStatus:
     m_FilePath: C:/Users/andre.bronca/Mentorama_Unity_Iniciante/modulo07/Mod07/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638584602865294845
-    m_Hash: 3031557867
+      ticks: 638585589626709837
+    m_Hash: 1129224993
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
   m_Packages:
     m_ResolvedPackages:
-    - packageId: com.unity.collab-proxy@2.0.4
+    - packageId: com.unity.collab-proxy@2.0.7
       testable: 0
       isDirectDependency: 1
-      version: 2.0.4
+      version: 2.0.7
       source: 1
-      resolvedPath: C:\Users\andre.bronca\Mentorama_Unity_Iniciante\modulo07\Mod07\Library\PackageCache\com.unity.collab-proxy@2.0.4
+      resolvedPath: C:\Users\andre.bronca\Mentorama_Unity_Iniciante\modulo07\Mod07\Library\PackageCache\com.unity.collab-proxy@2.0.7
       assetPath: Packages/com.unity.collab-proxy
       name: com.unity.collab-proxy
       displayName: Version Control
@@ -34,7 +34,7 @@ m_PackageAssets:
         email: 
         url: 
       category: Editor
-      type: asset
+      type: assets
       description: The package gives you the ability to use Unity Version Control
         in the Unity editor. To use Unity Version Control, a subscription is required.
         Learn more about how you can get started for free by visiting plasticscm.com.
@@ -158,13 +158,13 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 638176024310000000
+      datePublishedTicks: 638264754080000000
       documentationUrl: https://docs.unity3d.com/Packages/com.unity.collab-proxy@2.0/manual/index.html
       hasRepository: 1
       repository:
         type: git
         url: https://github.cds.internal.unity3d.com/unity/com.unity.cloud.collaborate.git
-        revision: dc15ef2ed609e8c19d0525a46c5bf7dd78df8432
+        revision: 13a0e74f47307a1b20a57747cea59891ce36a647
         path: 
     - packageId: com.unity.ide.rider@3.0.21
       testable: 0
@@ -543,12 +543,12 @@ m_PackageAssets:
         url: https://github.com/Unity-Technologies/com.unity.test-framework.git
         revision: 34a4d423d64926635eb36d3bb86276179cc186e1
         path: 
-    - packageId: com.unity.textmeshpro@3.0.6
+    - packageId: com.unity.textmeshpro@3.0.9
       testable: 0
       isDirectDependency: 1
-      version: 3.0.6
+      version: 3.0.9
       source: 1
-      resolvedPath: C:\Users\andre.bronca\Mentorama_Unity_Iniciante\modulo07\Mod07\Library\PackageCache\com.unity.textmeshpro@3.0.6
+      resolvedPath: C:\Users\andre.bronca\Mentorama_Unity_Iniciante\modulo07\Mod07\Library\PackageCache\com.unity.textmeshpro@3.0.9
       assetPath: Packages/com.unity.textmeshpro
       name: com.unity.textmeshpro
       displayName: TextMeshPro
@@ -557,7 +557,7 @@ m_PackageAssets:
         email: 
         url: 
       category: Text Rendering
-      type: asset
+      type: assets
       description: 'TextMeshPro is the ultimate text solution for Unity. It''s the
         perfect replacement for Unity''s UI Text and the legacy Text Mesh.
 
@@ -723,13 +723,13 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637547111200000000
-      documentationUrl: 
+      datePublishedTicks: 638515173480000000
+      documentationUrl: https://docs.unity3d.com/Packages/com.unity.textmeshpro@3.0/manual/index.html
       hasRepository: 1
       repository:
         type: git
         url: https://github.cds.internal.unity3d.com/unity/com.unity.textmeshpro.git
-        revision: 01e57e3b7de18af9dfe9baaa0a0ff5cc4765c899
+        revision: 0af193626b4f76795f7cb6c9b0f55389d0e4b1d6
         path: 
     - packageId: com.unity.timeline@1.4.8
       testable: 0

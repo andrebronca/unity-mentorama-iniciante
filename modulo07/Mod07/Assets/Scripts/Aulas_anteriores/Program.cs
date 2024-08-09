@@ -2,8 +2,6 @@ using UnityEngine;
 
 public class Program : MonoBehaviour
 {
-	private Character _player1;
-	private Character _player2;
 
 	void Start()
 	{
@@ -16,6 +14,9 @@ public class Program : MonoBehaviour
 		Debug.Log($"Carregando configurações");
 	}
 
+	private Character _player1;
+	private Character _player2;
+
 	void Update()
 	{
 		PlayerKeys();
@@ -23,6 +24,18 @@ public class Program : MonoBehaviour
 
 	private void PlayerKeys()
 	{
+		if (_player1 == null)
+		{
+			Debug.Log("[Program.cs] Character Player 1 = null");
+			return;
+		}
+
+		if (_player2 == null)
+		{
+			Debug.Log("[Program.cs] Character Player 2 = null");
+			return;
+		}
+
 		if (Input.GetKeyDown(KeyCode.Alpha1))
 		{
 			//Debug.Log($"Player {_player1.Name} atacando!");
