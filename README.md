@@ -9,6 +9,7 @@ Primeira atividade do módulo:<br />
 Ambientalizar-se na ferramenta Unity: hierarquia, cena, layout, adição de objetos primitivos, prefab.<br/>
 [Arquivos da atividade](https://github.com/andrebronca/unity-mentorama-iniciante/blob/andre_pc_pti/modulo01/README.md)
 
+<img src="/modulo01/mentorama_mod1_rigidbody_collider_material_keypress.gif" alt="Uso de física, material e controle de teclas"/>
 
 
 
