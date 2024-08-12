@@ -27,10 +27,16 @@ Quando a física é desativada, é possível movimentar em todas as direções.<
 <strong>Desafio</strong>:<br/>Utilizar o canvas. Controle da criação das respostas corretas.<br/>
 <img src="/modulo02/mentorama_mod2_quizz.gif" alt="Quizz"/>
 <img src="/modulo02/Screenshot_54.png" alt="Lista das questões"/>
-[Arquivos/resumo do módulo](https://github.com/andrebronca/unity-mentorama-iniciante/blob/andre_pc_pti/modulo01/README.md)
 <br/>
 <strong>Exercício</strong>:<br/>Mudança de cenário com acionamento.<br/>
 <strong>Desafio</strong>:<br/>Mudança de cenário.<br/>
 <img src="/modulo02/mentorama_mod2_mudanca_cenario.gif" alt="Lista das questões"/>
 <br/>
-[Arquivos/resumo do módulo](https://github.com/andrebronca/unity-mentorama-iniciante/blob/andre_pc_pti/modulo01/README.md)
+[Arquivos/resumo do módulo](https://github.com/andrebronca/unity-mentorama-iniciante/blob/andre_pc_pti/modulo02/README.md)
+
+
+## Módulo 07
+<img src="/modulo07/mentorama_mod7_game_modo_texto.gif" alt="Exibindo direção em um TMP"/><br/>
+<img src="/modulo07/mentorama_mod7_detectando_direcao.gif" alt="Exibindo direção em um TMP"/>
+<br/>
+[Arquivos/resumo do módulo](https://github.com/andrebronca/unity-mentorama-iniciante/blob/andre_pc_pti/modulo07/README.md)
