@@ -12,8 +12,7 @@ de espaço, a física é aplica, e a esfera cai. Ao colidir com o prefab de cubo
 Pressionando a tecla P, a esfera para de cair, sua física é desativada.<br/>
 Quando a física é desativada, é possível movimentar em todas as direções.<br/>
 <strong>Desafio</strong>:<br/> capturar o componente, desativar a física, fazer a movimentação da esfera.<br/>
-[Arquivos da atividade]<br/>
-(https://github.com/andrebronca/unity-mentorama-iniciante/blob/andre_pc_pti/modulo01/README.md)
+[Arquivos da atividade](https://github.com/andrebronca/unity-mentorama-iniciante/blob/andre_pc_pti/modulo01/README.md)
 
 <img src="/modulo01/mentorama_mod1_rigidbody_collider_material_keypress.gif" alt="Uso de física, material e controle de teclas"/>
 
