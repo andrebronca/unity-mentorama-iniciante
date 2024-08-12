@@ -5,8 +5,7 @@ Módulo: **Unity - Iniciante**<br />
 Versão do Unity: **2020.3.48f1, 2021.3.38f1, 2022.3.29f1**<br />
 
 ## Módulo 01
-Primeira atividade do módulo:<br />
-Ambientalizar-se na ferramenta Unity.<br/>
+<strong>Objetivo do módulo</strong>:<br/> Conhecer a ferramenta Unity.<br/>
 <strong>Estudo</strong>:<br/> hierarquia, cena, layout, adição de objetos primitivos, prefab.<br/>
 <strong>Exercício</strong>:<br/> Aplicar física à esfera, porém desativar a física ao iniciar a aplicação. <br/>Ao pressionar a barra
 de espaço, a física é aplica, e a esfera cai. Ao colidir com o prefab de cubos, este fica fora de controle.<br/>
@@ -18,5 +17,6 @@ Quando a física é desativada, é possível movimentar em todas as direções.<
 
 <img src="/modulo01/mentorama_mod1_rigidbody_collider_material_keypress.gif" alt="Uso de física, material e controle de teclas"/>
 
+## Módulo 02
 
 
